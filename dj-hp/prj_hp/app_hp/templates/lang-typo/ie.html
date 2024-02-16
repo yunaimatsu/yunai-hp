@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block content %}
+{% for info in infos %}
+    <h1>Indo-European languages</h1>
+    <p>name</p>
+    {{info.name}}
+    <p>ISO-3166</p>
+    {{info.slug}}
+    <p>learn more</p>
+    {{info.link}}
+</div>
+{% endfor %}
+{% endblock %}
