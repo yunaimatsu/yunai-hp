@@ -21,5 +21,6 @@ from app_hp.views import home, ie
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home),
+    
     path('Indo-European', ie)
 ]
