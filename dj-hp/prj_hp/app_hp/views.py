@@ -6,6 +6,9 @@ from .models import Langinf
 def home(request):
 	return render(request, "home.html")
 
+def cont(request):
+    return render(request, "contact.html")
+
 def test(request):
     return render(request, "base.html")
 
