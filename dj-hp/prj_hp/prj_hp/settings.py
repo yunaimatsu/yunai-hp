@@ -14,6 +14,11 @@ from pathlib import Path
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+# __file__ is the path to the current file, and Path is a class for representing file paths.
+# The resolve() method is used to convert the path to an absolute path.
+# The parent attribute is used to get the parent directory of the current file.
+# The / operator is used to join paths.
+# Here it represents the directory `PRJ_HP` which contains the `settings.py` file.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -24,9 +29,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=(&-j)nze5jh=z@$a3fv*5+9ld3^pc+$zv-yp$uijw49=y9!8^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [".localhost", "127.0.0.1", '[::1]']
 
 
 # Application definition
@@ -56,7 +61,7 @@ ROOT_URLCONF = 'prj_hp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -117,12 +122,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 MEDIA_ROOT = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 STATICFILES_DIRS = [
+    # 
     os.path.join(BASE_DIR, 'static'),
 ]
 

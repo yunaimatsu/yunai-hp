@@ -1,67 +1,92 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="static/images/yoshi_pen.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-          </a>
+  <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="{% static 'images/yoshi_pen.png' %}">
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="writings">
+        My writings
+        </a>
       
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+        <a class="navbar-item">
+        Portfolio
+        </a>
+      
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
           </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Jobs
+            </a>
+            <a class="navbar-item" href="contact">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Report an issue
+            </a>
+          </div>
         </div>
-      
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item">
-              Home
-            </a>
-      
-            <a class="navbar-item">
-              Documentation
-            </a>
-      
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                More
-              </a>
-      
-              <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  About
+      </div>
+      <div class="box is-large has-background-black">
+        <div class="navbar-end">
+          <div class="dropdown is-right is-hoverable">
+            <div class="dropdown-trigger">
+              <button class="button is-white is-normal is-outlined" aria-haspopup="true" aria-controls="dropdown-menu">
+                Language
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <a href="#" class="dropdown-item">
+                  English
                 </a>
-                <a class="navbar-item">
-                  Jobs
+                <a class="dropdown-item">
+                  中文
                 </a>
-                <a class="navbar-item">
-                  Contact
+                <a class="dropdown-item">
+                  हिन्दी
                 </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item">
-                  Report an issue
+                <a href="#" class="dropdown-item">
+                  Español
+                </a>
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item">
+                  More languages
                 </a>
               </div>
             </div>
           </div>
-      
-          <div class="navbar-end">
-            <div class="navbar-item">
-                <a href="/contact" class="navbar-item">
-                    Contact
-                </a>
-            </div>
-          </div>
         </div>
-      </nav>
-    <div>{% block content %}{% endblock %}</div>
+      </div>
+    </div>
+  </nav>
+  <div>
+  {% block content %}
+  {% endblock %}
+  </div>
 </body>
 </html>

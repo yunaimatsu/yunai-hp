@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from app_hp.views import test, img_brand, home, cont, lthome, ie, txhome
+from app_hp.views import test, img_brand, home, cont, lthome, ie, txhome, writ
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -26,5 +28,6 @@ urlpatterns = [
     path('contact', cont),
     path('lt-home', lthome),
     path('Indo-European', ie),
-    path('tx-home', txhome)
-]
+    path('tx-home', txhome),
+    path('writings', writ)
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

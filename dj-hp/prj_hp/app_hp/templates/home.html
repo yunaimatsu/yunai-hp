@@ -1,8 +1,10 @@
-{% extends "base.html" %} {% block content %}
-	<div>
-		<h1 style="color:rgb(18, 124, 89);">Matsuura Yoshihiro</h1>
+{% extends "base.html" %} 
+{% block content %}
+{% load static %}
+	<div class="block">
+		<h1 class="title is-1 has-text-centered">Matsuura Yoshihiro</h1>
 	</div>
-	<figure class="image has-ratio" width="1079px" height="916px">
-		<img src="images/brand_image.png">
-	</figure>
+	<div class="column is-centered">
+		<h1>This is a column</h1>
+	</div>
 {% endblock %}

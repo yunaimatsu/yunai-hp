@@ -16,7 +16,7 @@ def img_brand(request):
     return render(request, "templates/images/brand_image.png")
 
 def lthome(request):
-    return render(request, "lang-typo/lt-home.html")
+    return render(request, "lang-typo.html")
 
 def ie(request):
 	infos = Langinf.objects.filter()
@@ -24,3 +24,6 @@ def ie(request):
 
 def txhome(request):
 	return render(request, "taxonomy/tx-home.html")
+
+def writ(request):
+    return render(request, "mywriting_home.html")
