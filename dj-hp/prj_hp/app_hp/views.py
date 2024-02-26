@@ -1,10 +1,12 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from .models import Langinf
+from django.utils.translation import gettext_lazy as _
 
 # Create your views here.
 def home(request):
-	return render(request, "home.html")
+    my_traslatable_string = _("This is a translatable string.")
+    return render(request, "home.html", {'my_translatable_string': my_traslatable_string})
 
 def cont(request):
     return render(request, "contact.html")
@@ -27,3 +29,6 @@ def txhome(request):
 
 def writ(request):
     return render(request, "mywriting_home.html")
+
+def orgs(request):
+    return render(request, "organizations.html")
