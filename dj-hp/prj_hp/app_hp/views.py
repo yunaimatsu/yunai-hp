@@ -27,8 +27,8 @@ def ie(request):
 def txhome(request):
 	return render(request, "taxonomy/tx-home.html")
 
-def writ(request):
-    return render(request, "mywriting_home.html")
+def achi(request):
+    return render(request, "achievements.html")
 
 def orgs(request):
     return render(request, "organizations.html")

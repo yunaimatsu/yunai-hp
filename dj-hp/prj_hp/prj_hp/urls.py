@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from app_hp.views import test, img_brand, home, cont, lthome, ie, txhome, writ, orgs
+from app_hp.views import test, img_brand, home, cont, lthome, ie, txhome, achi, orgs
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -29,6 +29,6 @@ urlpatterns = [
     path('lt-home', lthome),
     path('Indo-European', ie),
     path('tx-home', txhome),
-    path('writings', writ),
+    path('achievements', achi),
     path('organizations', orgs)
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
