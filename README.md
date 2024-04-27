@@ -1,11 +1,18 @@
 > 7 languages are available in this repo.
->> [日本語](#ja)
->> [English](#en)
->> [Español](#es)
->> [French](#fr)
->> [中文](#zh)
->> [한국어](#ko)
->> [Tiếng VIệt](#vi)
+>
+> [日本語](#ja)
+>
+> [English](#en)
+>
+> [Español](#es)
+>
+> [French](#fr)
+>
+> [中文](#zh)
+>
+> [한국어](#ko)
+>
+> [Tiếng VIệt](#vi)
 
 > <a name="ja">日本語</a>
 ## {Slogan of the repo}
