@@ -33,7 +33,7 @@ SNSだけでは伝え切れない自分のことを伝えたり、Web上で動�
 
 > <a name="en">English</a>
 ## Creating My Own Homepage
-This is a homepage I created to easily convey information about myself, yunai, including projects, knowledge, and more to others. It serves as a platform to convey aspects of myself that cannot be fully expressed through social media alone, to showcase web-based projects, and to receive evaluations of my technical skills.
+This is a homepage I created to easily convey information about myself, yunai, including projects, knowledge, and more to others. It also serves as a platform to convey aspects of myself that cannot be fully expressed through social media alone and to receive evaluations of my technical skills, showcasing web-based projects,
 
 ## Deployment
 [Deployment](Deployment Link)
@@ -48,7 +48,7 @@ This is a homepage I created to easily convey information about myself, yunai, i
 > <a name="es">Español</a>
 
 ## Crear mi propia página de inicio
-Esta es una página de inicio que creé para transmitir fácilmente información sobre mí, yunai, incluyendo proyectos, conocimientos y más a otras personas. Sirve como una plataforma para transmitir aspectos de mí mismo que no se pueden expresar completamente a través de las redes sociales solas, para mostrar proyectos basados en web y para recibir evaluaciones de mis habilidades técnicas.
+Esta es una página de inicio que creé para transmitir fácilmente información sobre mí, yunai, incluyendo proyectos, conocimientos y más a otras personas. Sirve también como una plataforma para transmitir aspectos de mí mismo que no se pueden expresar completamente a través de las redes sociales solas, para mostrar proyectos basados en web y recibir evaluaciones de mis habilidades técnicas.
 
 {Explicación sobre el proyecto}
 
@@ -67,7 +67,7 @@ Esta es una página de inicio que creé para transmitir fácilmente información
 > <a name="fr">Français</a>
 
 ## Créer ma propre page d'accueil
-Ceci est une page d'accueil que j'ai créée pour transmettre facilement des informations sur moi-même, yunai, y compris des projets, des connaissances, et plus encore, à des tiers. Elle sert de plateforme pour transmettre des aspects de moi-même qui ne peuvent pas être pleinement exprimés uniquement via les réseaux sociaux, pour présenter des projets basés sur le web et pour recevoir des évaluations de mes compétences techniques.
+Ceci est une page d'accueil que j'ai créée pour transmettre facilement des informations sur moi-même, yunai, y compris des projets, des connaissances, et plus encore, à la gens. Elle sert de plateforme pour transmettre des aspects de moi-même qui ne peuvent pas être pleinement exprimés uniquement via les réseaux sociaux, pour présenter des projets basés sur le web et pour recevoir des évaluations de mes compétences techniques.
 
 ## Déploiement
 [Lien de déploiement]({URL})
