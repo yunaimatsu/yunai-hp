@@ -48,7 +48,7 @@
 
 ---
 
-<a name="es">Español</a>
+> <a name="es">Español</a>
 
 ## {Eslogan del repositorio}
 
@@ -66,7 +66,7 @@
 
 ---
 
-<a name="fr">Français</a>
+> <a name="fr">Français</a>
 
 ## {Slogan du dépôt}
 
@@ -84,7 +84,7 @@
 
 ---
 
-<a name="zh">中文</a>
+> <a name="zh">中文</a>
 
 ## {仓库口号}
 
@@ -102,7 +102,7 @@
 
 ---
 
-<a name="ko">한국어</a>
+> <a name="ko">한국어</a>
 
 ## {저장소 슬로건}
 
@@ -120,7 +120,7 @@
 
 ---
 
-<a name="vi">Tiếng Việt</a>
+> <a name="vi">Tiếng Việt</a>
 
 ## {Biểu ngữ của kho lưu trữ}
 
