@@ -12,9 +12,10 @@ def file_upload(request):
         fs = FileSystemStorage()
         filename = fs.save(myfile.name, myfile)
         uploaded_file_url = fs.url(filename)
-        return render(request, 'file_upload.html', {
+        return render(request, 'file-manip/file_upload.html', {
             'uploaded_file_url': uploaded_file_url
         })
+    return render(request, 'file-manip/file_upload.html')
 
 def home(request):
     my_traslatable_string = _("This is a translatable string.")
