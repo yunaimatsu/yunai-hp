@@ -21,7 +21,8 @@
 {Explanation on the project}
 {Why I made this}
 
-## デプロイ先[デプロイ先リンク]({URL})
+## デプロイ先
+[デプロイ先リンク]({URL})
 
 ## 技術スタック
 * {Tech item 1}
@@ -32,10 +33,14 @@
 
 > <a name="en">English</a>
 ## {Slogan of the repo}
+
 {Explanation on the project}
+
 {Why I made this}
 
+## Deployment
 [Deployment](Deployment Link)
+
 ## Tech Stack
 * {Tech item 1}
 * {Tech item 2}
