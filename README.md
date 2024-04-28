@@ -25,7 +25,7 @@ SNSだけでは伝え切れない自分のことを伝えたり、Web上で動�
 [デプロイ先リンク]({URL})
 
 ## 技術スタック
-* {Tech item 1}
+* ランタイムは[Bun](https://bun.sh/)を使用しました。
 * {Tech item 2}
 * {Tech item 3}
 
