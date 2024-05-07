@@ -1,0 +1,10 @@
+.container {
+    display: grid;;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.header {
+    grid-area: header;
+    background: rgba(0, 139, 202, 0.5);
+}
+
