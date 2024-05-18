@@ -6,7 +6,6 @@
 <slot />
 
 <footer>
-    <p style="font-family: 'Times New Roman', Times, serif;" class="footer-title">yunai official</p>
     <p class="lgroup">Contact</p>
     <div class="f-container">
         <a href="mailto:yunaimatsu@gmail.com" class="f-item">Email</a>
@@ -29,33 +28,25 @@
 
     * {
         color: #FFF;
-        text-shadow: 0 0 5px gray, 0 0 10px gray, 0 0 15px gray, 0 0 20px gray, 0 0 30px gray, 0 0 40px gray;
-
+        text-shadow: 0 0 5px gray, 0 0 10px gray, 0 0 15px gray, 0 0 20px gray, 0 0 30px gray, 0 0 40px gray;   
     }
-    .navbar {
-        height: 2em;
-        background-color: #333;
+
+    a {
+        color: #DDD;
+    }
+
+    a:hover {
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 30px white, 0 0 40px white;
         color: white;
-        font-family: 'Roboto', serif;
-        text-align: center;
-        top: 0;
-        left: 0;
-        width: 100%;    
     }
 
     #title {
-    font-family: "Exo 2", sans-serif;
-    font-size: 1.5em;
-    font-weight: 900;
-    margin: 0.5em 1em;
-    color: #FFF;
-    text-decoration: none;
-}
-
-#title:hover {
-    color: orange;
-    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 30px white, 0 0 40px white;
-}
+        font-family: "Exo 2", sans-serif;
+        font-size: 1.5em;
+        font-weight: 900;
+        margin: 0.5em 1em;
+        text-decoration: none;
+    }
 
     p {
         margin: 0;
@@ -66,6 +57,11 @@
         font-family: 'Roboto', serif;
         padding: 0.5em;
         margin: 0;
+
+        /* border */
+        border-top-style: solid;
+        border-top-color: #333;
+        border-top-width: 1px;
     }
 
     .navbar {
@@ -73,9 +69,21 @@
         gap: 1rem;
         justify-content: center;
         align-items: center;
+
+        /* border */
+        border-bottom-style: solid;
+        border-bottom-color: #333;
+        border-bottom-width: 1px;
+
         padding: 1rem;
-        background: black;
+        height: 2em;
+        background-color: #131722;
         color: white;
+        font-family: 'Roboto', serif;
+        text-align: center;
+        top: 0;
+        left: 0;
+        width: 100%; 
     }
 
     .lgroup {
