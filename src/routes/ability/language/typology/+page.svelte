@@ -1,6 +1,9 @@
 <header>
     
 </header>
+<div class="container">
+    <h1>Linguistics</h1>
+</div>
 <div>
     <p><a href="https://www.notion.so/yunaimatsu/Sino-Tibetan-857b0a179c8646938f9677ed7dc49f35" class="navlink">Sino-Tibetan</a></p>
 </div>
@@ -34,3 +37,18 @@
 <footer>
 
 </footer>
+<style>
+    p {
+        text-align: center;
+    }
+    a {
+        color: #0077cc;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+    }
+
+    a:hover {
+        color: #005999;
+    }
+</style>

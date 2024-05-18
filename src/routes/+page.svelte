@@ -1,6 +1,6 @@
 <main>
     <title>yunai official</title>
-    <h1 class="title">Make the world more confortable for all humanity</h1>
+    <h1 class="philos">Make the world more confortable for all humanity</h1>
 </main>
 
 <style>
@@ -9,15 +9,13 @@
     }
 
     main {
-        background-color: #EFEFEF;
         border-color: #333;
         border-radius: 8px;
     }
 
-    .title {
-        color: #333;
+    .philos {
         text-align: center;
-        margin-top: 1em;
+        margin: 1em 1em 0 1em;
     }
 
     h1 {
@@ -30,4 +28,14 @@
         color: #666;
         margin-bottom: 2rem;
     } */
+
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+
+    }
+
+    .philos {
+        animation: fadeIn 3s ease-in-out;
+    }
 </style>

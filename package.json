@@ -39,5 +39,9 @@
     "vitest": "^1.2.0",
     "wrangler": "^3.56.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/enhanced-img": "^0.2.0",
+    "bulma": "^1.0.0"
+  }
 }
