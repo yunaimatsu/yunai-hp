@@ -14,12 +14,12 @@
     }
 
     .philos {
+        color: white;
         text-align: center;
-        margin: 1em 1em 0 1em;
+        margin: 1em;
     }
 
     h1 {
-        color: #333;
         font-size: 2rem;
         margin-bottom: 1rem;
     }

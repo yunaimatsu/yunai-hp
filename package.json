@@ -42,6 +42,7 @@
   "type": "module",
   "dependencies": {
     "@sveltejs/enhanced-img": "^0.2.0",
-    "bulma": "^1.0.0"
+    "bulma": "^1.0.0",
+    "svelte-social-media-icons": "^0.0.3"
   }
 }

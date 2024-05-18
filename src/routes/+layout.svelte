@@ -1,53 +1,67 @@
 <script>
-    let showMenu = false;
-
-    function toggleMenu() {
-    showMenu = !showMenu;
-    }
 </script>
 <div class="navbar">
-    <a id="title" href="/">yunai</a >
-
-    <nav class="nav-menu">
-        <a href="ability">Ability</a>
-        <a href="about">About Me</a>
-    </nav>
+    <a id="title" href="/">YuNai</a >
 </div>
-<button class="hamburger" on:click={toggleMenu}>
-    <span>&#9776;</span>
-</button>
-
 <slot />
 
 <footer>
     <p style="font-family: 'Times New Roman', Times, serif;" class="footer-title">yunai official</p>
-    <a href="mailto:yunaimatsu@gmail.com">Email</a>
-    <a href="https://github.com/yunaimatsu">GitHub</a>
-    <a href="https://twitter.com/supegoroshiago">Twitter</a>
+    <p class="lgroup">Contact</p>
+    <div class="f-container">
+        <a href="mailto:yunaimatsu@gmail.com" class="f-item">Email</a>
+        <a href="https://github.com/yunaimatsu" class="f-item">GitHub</a>
+        <a href="https://twitter.com/supegoroshiago" class="f-item">Twitter</a>
+        <a href="https://www.linkedin.com/in/yoshihiro-matsuura-22179a302/" class="f-item">LinkedIn</a>
+    </div>
+    <p class="lgroup">Language</p>
+    <div class="f-container">
+        <a href="ability/language/typology" class="f-item">Language List</a>
+        <a href="ability/language/linguistics" class="f-item">Linguistics</a>
+        <a href="ability/cs" class="f-item">情報工学</a> 
+        <a href="ability/humainities" class="f-item">人文学</a>
+        <a href="ability/economics" class="f-item">経済学</a>
+    <p>© 2024 yunai</p>
 </footer>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+        color: #FFF;
+        text-shadow: 0 0 5px gray, 0 0 10px gray, 0 0 15px gray, 0 0 20px gray, 0 0 30px gray, 0 0 40px gray;
+
+    }
     .navbar {
+        height: 2em;
         background-color: #333;
         color: white;
         font-family: 'Roboto', serif;
         text-align: center;
+        top: 0;
+        left: 0;
+        width: 100%;    
     }
 
     #title {
-        font-size: 3em;
-        margin: 0.5em 1em;
-        color: #CCC;
-        text-decoration: none;
-    }
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin: 0.5em 1em;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#title:hover {
+    color: orange;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 30px white, 0 0 40px white;
+}
 
     p {
         margin: 0;
     }
 
     footer {
-        background-color: #CCC;
-        color: #303030;
         font-size: 1em;
         font-family: 'Roboto', serif;
         padding: 0.5em;
@@ -60,29 +74,37 @@
         justify-content: center;
         align-items: center;
         padding: 1rem;
+        background: black;
+        color: white;
     }
 
-    .nav-menu > a {
-        color: #0077cc;
-        text-decoration: none;
-    }
-
-    .nav-menu > a:hover {
-        color: #005999;
-    }
-
-    .nav-menu {
-        display: flex;
-        gap: 1rem;
+    .lgroup {
+        font-weight: bold;
     }
 
     .footer-title {
         margin-left: 1em;
     }
 
+    .f-container {
+        padding: 1em;
+        margin: 1em 3em 1em 3em;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .f-item {
+        text-align: center;
+        justify-content: center;
+        padding: 1rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
     @media only screen and (width <= 600px) {
-        .nav-menu {
-            visibility: hidden;
+        .f-container {
+            grid-template-columns: 1fr;
+            padding: 1em;
         }
     }
     @media only screen and (300px <= width <= 600px) {
