@@ -2,15 +2,14 @@
 
 * {
     color: #FFF;
-    text-shadow: 0 0 5px gray, 0 0 10px gray, 0 0 15px gray, 0 0 20px gray, 0 0 30px gray, 0 0 40px gray;   
+    text-shadow: 0 0 5px gray, 0 0 10px gray, 0 0 15px gray, 0 0 20px gray, 0 0 30px gray, 0 0 40px gray;
 }
 
 a {
-    color: #DDD;
 }
 
 a:hover {
-    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 30px white, 0 0 40px white;
+    text-shadow: 0 0 5px white ;
     color: white;
 }
 
@@ -20,10 +19,6 @@ a:hover {
     font-weight: 900;
     margin: 0.5em 1em;
     text-decoration: none;
-}
-
-p {
-    margin: 0;
 }
 
 footer {

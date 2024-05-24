@@ -1,24 +1,13 @@
 <script>
-    let observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('fade-in');
-            }
-        });
-    }, { threshold: 0.1 });
-
-    document.querySelectorAll('.philos').forEach(el => {
-        observer.observe(el);
-});
 </script>
 <main>
     <title>yunai official</title>
     <h1 class="philos">Make the world more confortable for all humanity</h1>
     <div>
-        <p class="philos">YuNai(Matsuura Yoshihiro)</p>
-        <p class="philos">Undergraduate at Osaka University</p>
-        <p class="philos">Major: Linguistics</p>
-        <p class="philos">Minor: Information Engineering</p>
+        <div class="philos">YuNai(Matsuura Yoshihiro)</div>
+        <div class="philos">Undergraduate at Osaka University</div>
+        <div class="philos">Major: Linguistics</div>
+        <div class="philos">Minor: Information Engineering</div>
     </div>
         <p class="guide">Interested in the level of my knowledge and skills?</p>
 </main>
@@ -37,6 +26,8 @@
         color: white;
         text-align: center;
         margin: 1em;
+        padding-left: 4em;
+        padding-right: 4em;
     }
 
     h1 {
@@ -80,7 +71,6 @@
     @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
-
     }
 
     .philos {
