@@ -4,10 +4,10 @@
     <title>yunai official</title>
     <h1 class="philos">Make the world more confortable for all humanity</h1>
     <div>
-        <div class="philos">YuNai(Matsuura Yoshihiro)</div>
-        <div class="philos">Undergraduate at Osaka University</div>
-        <div class="philos">Major: Linguistics</div>
-        <div class="philos">Minor: Information Engineering</div>
+        <div class="info"><p>YuNai(Matsuura Yoshihiro)</p></div>
+        <div class="info"><p>Undergraduate at Osaka University <br>Major: Linguistics <br>Minor: Information Engineering</p></div>
+        <div class="info"><p></p></div>
+        <div class="info"><p></p></div>
     </div>
         <p class="guide">Interested in the level of my knowledge and skills?</p>
 </main>
@@ -28,6 +28,20 @@
         margin: 1em;
         padding-left: 4em;
         padding-right: 4em;
+    }
+
+    .info {
+        color: white;
+        text-align: center;
+        margin-top: 9em;
+        margin-bottom: 9em;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    .info > p {
+        font-size: 1.5em;
+
     }
 
     h1 {
