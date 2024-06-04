@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 @media only screen and (width <= 768px) {
     * {
-        font-size: 0.9em;
+        font-size: 1.6em;
     }
 }
 @media only screen and (769px <= width <= 1023px) {
