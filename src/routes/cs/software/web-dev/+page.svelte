@@ -1,3 +1,7 @@
+<script>
+    import '$lib/global.css';
+</script>
+
 <a href="https://zenn.dev/yunaimatsu/articles/9ab92438090525"><h2>Overview</h2></a>
 
 <a href="https://zenn.dev/yunaimatsu/articles/3ffec987c8bb6a"><h3>HTMLのテンプレと全体像</h3></a>
@@ -46,4 +50,3 @@
         <h3></h3>
     </a>
 </h2>
-

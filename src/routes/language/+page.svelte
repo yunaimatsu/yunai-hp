@@ -1,3 +1,6 @@
+<script>
+    import '$lib/global.css';
+</script>
 <div class="container">
     <a class="item1" href="ability/language/typology">Language List</a>
     <a class="item2" href="ability/language/linguistics">Linguistics</a>

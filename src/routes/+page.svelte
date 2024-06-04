@@ -1,93 +1,46 @@
 <script>
+    import '$lib/global.css';
 </script>
 <main>
-    <title>yunai official</title>
     <h1 class="philos">Make the world more confortable for all humanity</h1>
     <div>
-        <div class="info"><p>YuNai(Matsuura Yoshihiro)</p></div>
-        <div class="info"><p>Undergraduate at Osaka University <br>Major: Linguistics <br>Minor: Information Engineering</p></div>
-        <div class="info"><p></p></div>
-        <div class="info"><p></p></div>
+        <div class="info">
+            <p class="info-key">Name</p>
+            <p class="info-value">YuNai</p>
+        </div>
+        <div class="info">
+            <p class="info-key">Affiliation</p>
+            <p class="info-value">Osaka University</p>
+            <p class="info-sub">Undergraduate</p>
+        </div>
+        <div class="info">
+            <p class="info-key">Major</p>
+            <p class="info-value">Linguistics</p>
+        </div>
+        <div class="info">
+            <p class="info-key">Minor</p>
+            <p class="info-value">Natural Language Processing</p>
+        </div>
     </div>
-        <p class="guide">Interested in the level of my knowledge and skills?</p>
 </main>
-
 <style>
-    * {
-        font-family: 'Roboto', sans-serif;
-    }
-
-    main {
-        border-color: #333;
-        border-radius: 8px;
-    }
-
-    .philos {
-        color: white;
-        text-align: center;
-        margin: 1em;
-        padding-left: 4em;
-        padding-right: 4em;
-    }
-
-    .info {
-        color: white;
-        text-align: center;
-        margin-top: 9em;
-        margin-bottom: 9em;
-        padding-left: 4em;
-        padding-right: 4em;
-    }
-
-    .info > p {
-        font-size: 1.5em;
-
-    }
-
     h1 {
         font-size: 2rem;
         margin-bottom: 1rem;
     }
 
-    /* p {
-        color: #666;
+    .info-key {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .info-value {
+        font-size: 2.0rem;
         margin-bottom: 2rem;
-    } */
-
-    @media only screen and (width <= 300px) {
-        .philos {
-            font-size: 1em;
-        }
     }
 
-    @media only screen and (300px <= width <= 600px) {
-        .philos {
-            font-size: 1.5em;
-        }
-    }
-
-    @media only screen and (600px <= width <= 900px) {
-        .philos {
-            font-size: 2em;
-        }
-    }
-
-    @media only screen and (900px <= width) {
-        .philos {
-            font-size: 2.5em;
-        }
-    }
-
-    .guide {
-        animation: fadeIn 2s ease-in forwards;
-    }
-
-    @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-    }
-
-    .philos {
-        animation: fadeIn 3s ease-in-out;
+    .info-sub {
+        font-size: 1.0rem;
+        margin-bottom: 1rem;
     }
 </style>

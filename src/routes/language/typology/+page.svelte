@@ -1,6 +1,7 @@
-<header>
-    
-</header>
+<script>
+    import '$lib/global.css';
+</script>
+
 <div class="container">
     <h1>Linguistics</h1>
 </div>
@@ -37,23 +38,3 @@
 <footer>
 
 </footer>
-<style>
-    * {
-        color: #FFF;
-        text-shadow: 0 0 5px gray, 0 0 10px gray, 0 0 15px gray, 0 0 20px gray, 0 0 30px gray, 0 0 40px gray;
-
-    }
-    p {
-        text-align: center;
-    }
-    a {
-        color: #0077cc;
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.5em;
-    }
-
-    a:hover {
-        color: #005999;
-    }
-</style>
