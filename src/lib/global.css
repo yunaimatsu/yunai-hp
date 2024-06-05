@@ -22,6 +22,7 @@
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
+    text-align: center;
 
     overflow-x: hidden;
 }
@@ -36,35 +37,30 @@ a:hover {
     text-shadow: 0 0 1px #505050;
 }
 
-#title {
-    font-family: "Exo 2", sans-serif;
-    font-size: 1.5em;
-    font-weight: 900;
-    margin: 0.5em 1em;
-    text-decoration: none;
-}
-
 /* Navbar */
 
 .navbar {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-
     /* border */
     border-bottom-style: solid;
     border-bottom-color: #333;
     border-bottom-width: 1px;
 
-    padding: 1rem;
+    /* background */
+    padding: 1em;
     height: 2em;
-    color: white;
-    font-family: 'Roboto', serif;
-    text-align: center;
+
+    /* position */
     top: 0;
     left: 0;
-    width: 100%; 
+    right: 0;
+}
+
+.navbar > a {
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin: 0.5em 1em;
+    text-decoration: none;
 }
 
 /* Footer */
@@ -79,6 +75,10 @@ footer {
     border-top-style: solid;
     border-top-color: #333;
     border-top-width: 1px;
+
+    @media only screen and (max-width: 48em) {
+        display: grid;
+    }
 }
 
 /** Footer Styles **/
@@ -91,13 +91,11 @@ footer {
 .lgroup { 
     font-weight: bold;
     font-size: 1.3em;
-    text-align: center;
     color: #CCC;
     text-shadow: 0 0 1px #DDD;
 }
 
 .f-item {
-    text-align: center;
     justify-content: center;
     font-weight: bold;
     text-decoration: none;
@@ -115,7 +113,6 @@ footer {
 .liscence-text {
     font-size: 0.8em;
     font-family: 'Roboto', serif;
-    text-align: center;
     padding: 1em;
     margin: 0;
     font-weight: 100;
@@ -123,10 +120,8 @@ footer {
 }
 
 .info {
-    color: white;
-    text-align: center;
-    margin-top: 9em;
-    margin-bottom: 9em;
+    margin-top: 3em;
+    margin-bottom: 3em;
     padding-left: 4em;
     padding-right: 4em;
 }
@@ -142,8 +137,4 @@ footer {
 
 .guide {
     animation: fadeIn 2s ease-in forwards;
-}
-
-.philos {
-    animation: fadeIn 3s ease-in-out;
 }

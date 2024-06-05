@@ -23,7 +23,6 @@
     }
 
     .notion {
-        text-align: center;
         padding: 20px;
     }
 
@@ -48,13 +47,11 @@
         padding: 20px;
         width: 50%;
         flex-direction: column;
-        text-align: center;
     }
 
     h2 {
         padding: 10px;
         font-family: 'Roboto', sans-serif;
-        text-align: center;
         color: #333;
     }
 
