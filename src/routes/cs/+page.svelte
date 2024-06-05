@@ -18,7 +18,7 @@
 <style>
     .body {
         font-family: 'Roboto', sans-serif;
-        color: #333;
+        color: #444;
         background-color: #f5f5f5;
     }
 

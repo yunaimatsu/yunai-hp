@@ -1,36 +1,29 @@
 /* Global Styles */
 
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
-@media only screen and (width <= 768px) {
-    * {
-        font-size: 1.6em;
-    }
+@media only screen and (width <= 48em) {
+    
 }
-@media only screen and (769px <= width <= 1023px) {
-    * {
-        font-size: 1em;
-    }
+@media only screen and (48.1em <= width <= 64em) {
+    
 }
-@media only screen and (1024px <= width <= 1215px) {
-    * {
-        font-size: 1.3em;
-    }
+@media only screen and (64.1em <= width <= 75.9375em) {
+    
 }
-@media only screen and (1216px <= width <= 1407px) {
-    * {
-        font-size: 1.6em;
-    }
+@media only screen and (76em <= width <= 88.0625em) {
+    
 }
-@media only screen and (1408px <= width) {
-    * {
-        font-size: 2em;
-    }
+@media only screen and (88.1em <= width) {
+    
 }
 * {
     color: #555;
     text-shadow: 0 0 1px #808080;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+
+    overflow-x: hidden;
 }
 
 a {
@@ -75,16 +68,6 @@ a:hover {
 }
 
 /* Footer */
-@media only screen and (width <= 768px) {
-}
-@media only screen and (769px <= width <= 1023px) {
-}
-@media only screen and (1024px <= width <= 1215px) {
-}
-@media only screen and (1216px <= width <= 1407px) {
-}
-@media only screen and (1408px <= width) {
-}
 
 footer {
     font-size: 1em;
@@ -107,8 +90,10 @@ footer {
 /** Category **/
 .lgroup { 
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: center;
+    color: #CCC;
+    text-shadow: 0 0 1px #DDD;
 }
 
 .f-item {
@@ -124,71 +109,41 @@ footer {
 }
 
 .liscence {
-    
+    background-color: black;  
 }
 
-.liscence > p {
+.liscence-text {
     font-size: 0.8em;
     font-family: 'Roboto', serif;
     text-align: center;
     padding: 1em;
     margin: 0;
+    font-weight: 100;
+    color: white;
 }
 
-    .philos {
-        color: white;
-        text-align: center;
-        margin: 1em;
-        padding-left: 4em;
-        padding-right: 4em;
-    }
+.info {
+    color: white;
+    text-align: center;
+    margin-top: 9em;
+    margin-bottom: 9em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
 
-    .info {
-        color: white;
-        text-align: center;
-        margin-top: 9em;
-        margin-bottom: 9em;
-        padding-left: 4em;
-        padding-right: 4em;
-    }
+.info > p {
+    font-size: 1.5em;
+}
 
-    .info > p {
-        font-size: 1.5em;
-    }
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 
-    @media only screen and (width <= 300px) {
-        .philos {
-            font-size: 1em;
-        }
-    }
+.guide {
+    animation: fadeIn 2s ease-in forwards;
+}
 
-    @media only screen and (300px <= width <= 600px) {
-        .philos {
-            font-size: 1.5em;
-        }
-    }
-
-    @media only screen and (600px <= width <= 900px) {
-        .philos {
-            font-size: 2em;
-        }
-    }
-
-    @media only screen and (900px <= width) {
-        .philos {
-            font-size: 2.5em;
-        }
-    }
-
-    @keyframes fadeIn {
-        0% {opacity: 0;}
-        100% {opacity: 1;}
-    }
-
-    .guide {
-        animation: fadeIn 2s ease-in forwards;
-    }
-
-    .philos {
-        animation: fadeIn 3s ease-in-out;
-    }
+.philos {
+    animation: fadeIn 3s ease-in-out;
+}

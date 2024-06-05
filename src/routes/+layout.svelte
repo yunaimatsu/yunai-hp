@@ -42,15 +42,25 @@
         <a href="humainities" class="f-item">マクロ経済</a>
     </div>
 
-    <div>
+    <div class="f-container">
         <p class="lgroup">統計学・データサイエンス (β)</p>
+        <a href="" class="f-item">経済学の全体像</a>
+        <a href="language/typology" class="f-item">金融</a>
+        <a href="language/linguistics" class="f-item">会計</a>
+        <a href="cs" class="f-item">ミクロ経済</a> 
+        <a href="humainities" class="f-item">マクロ経済</a>
     </div>
 
-    <div>
+    <div class="f-container">
         <p class="lgroup">機械工学［開発中］</p>
+        <a href="" class="f-item">機械工学の全体像</a>
+        <a href="language/typology" class="f-item">流体力学</a>
+        <a href="language/linguistics" class="f-item">材料力学</a>
+        <a href="cs" class="f-item">熱力学</a>
+        <a href="humainities" class="f-item">機械力学</a>
     </div>
 
     <div class="liscence">
-        <p>© 2024 yunai</p>
+        <p class="liscence-text">© 2024 yunai</p>
     </div>
 </footer>
