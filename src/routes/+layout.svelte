@@ -3,12 +3,16 @@
 </script>
 
 <div class="navbar">
-    <a href="/">Matsuura Yoshihiro Site</a >
+    <a href="/" class="title">YOSHI<wbr>Official</a >
 </div>
 
 <slot />
 
 <footer>
+    <div class="f-container">
+        <p class="lgroup">About</p>
+        <a href="about" class="f-item">自己紹介・来歴など</a>
+    </div>
     <div class="f-container">
         <p class="lgroup">連絡</p>
         <a href="mailto:yunaimatsu@gmail.com" class="f-item">Email</a>
@@ -22,11 +26,11 @@
         <p class="lgroup">言語</p>
         <a href="language/typology" class="f-item">世界の言語</a>
         <a href="language/linguistics" class="f-item">言語学</a>
-        <a href="" class="f-item">自然言語処理（コンピュータ科学へ飛びます）</a>
+        <a href="" class="f-item">自然言語処理(CS)</a>
     </div>
 
     <div class="f-container">
-        <p class="lgroup">コンピュータ科学</p>
+        <p class="lgroup">CS</p>
         <a href="" class="f-item">CSの全体像</a>
         <a href="" class="f-item">ハードウェア</a>
         <a href="" class="f-item">OS</a>
@@ -45,7 +49,7 @@
     </div>
 
     <div class="f-container">
-        <p class="lgroup">数理科学 (β)</p>
+        <p class="lgroup">数理 (β)</p>
         <a href="" class="f-item">統計</a>
         <a href="" class="f-item">解析</a>
         <a href="" class="f-item">集合・論理</a>
@@ -53,9 +57,9 @@
 
     <div class="f-container">
         <p class="lgroup">音楽［開発中］</p>
-        <a href="" class="f-item">世界の言語</a>
         <a href="" class="f-item">世界の楽器</a>
-        <a href="" class="f-item">DTM(コンピュータ科学へ飛びます)</a>
+        <a href="" class="f-item">DTM(CS)</a>
+        <a href="" class="f-item">音楽史</a>
         <a href="" class="f-item">音楽理論</a>
     </div>
 
