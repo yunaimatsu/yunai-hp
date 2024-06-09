@@ -1,26 +1,17 @@
-.button {
-    margin-top: 12px;
-    margin-left: 5px;
+@media only screen and (max-width: 450px) {
+    #sideMenuButton {
+        display: flex;
+        font-weight: bolder;
+        cursor: pointer;
+        align-items: center;
+        color: red;
+    }
 }
 
-.button button {
-    width: 162px;
-    height: 35px;
-    border-radius: 12px;
-    border-color: transparent;
-}
-
-.button button:hover {
-    background-color: #8cc099;
-}
-
-button {
-    width: 162px;
-    height: 35px;
-    border-radius: 12px;
-    border-color: transparent;
-}
-
-button:hover {
-    background-color: #8cc099;
+@media only screen and (min-width: 451px) {
+    #sideMenuButton {
+        display: none;
+        font-weight: bolder;
+        cursor: pointer;
+    }
 }

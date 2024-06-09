@@ -6,6 +6,7 @@
 @import url('footer.css');
 @import url('image.css');
 @import url('global.css');
+@import url('content.css');
 
 * {
     overflow-x: hidden;

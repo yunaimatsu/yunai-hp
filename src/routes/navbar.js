@@ -1,9 +1,7 @@
 function openNavbar() {
-    document.getElementById("sideNavigationBar").style.width = "50%";
+    document.getElementById("sideNavBar").style.width = "50%";
 }
 
 function closeNavbar() {
-    document.getElementById("sideNavigationBar").style.width = "0%";
+    document.getElementById("sideNavBar").style.width = "0%";
 }
-
-export { openNavbar, closeNavbar };

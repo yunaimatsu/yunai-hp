@@ -4,17 +4,15 @@
 </script>
 <nav class="navBar">
     <a href="/" class="title">YOSHI<wbr>Official</a>
-    <button class="sideMenuButton" on:click={openNavbar}>&#9776</button>
-    <div class="headNavBar">
-        <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="about">About</a></li>
-        </ul>
+    <button id="sideMenuButton" on:click={openNavbar}>&#9776</button>
+    <div class="headMenu">
+        <a href="/">Home</a>
+        <a href="about">About</a>
     </div>
 </nav>
 
 <div class="sideNavBar">
-    <a href="/" class="closeButton" on:click={closeNavbar}>&#x274C</a>
+    <a href="/" id="closeButton" on:click={closeNavbar}>&#x274C</a>
     <a href="/">Home</a>
     <a href="about">About</a>
 </div>
@@ -45,13 +43,13 @@
 
     <div class="f-container">
         <p class="lheader">CS</p>
-        <a href="" class="f-item">CSの全体像</a>
-        <a href="" class="f-item">ハードウェア</a>
-        <a href="" class="f-item">OS</a>
+        <!-- <a href="" class="f-item">CSの全体像</a> -->
+        <!-- <a href="" class="f-item">ハードウェア</a> -->
+        <!-- <a href="" class="f-item">OS</a> -->
         <a href="cs/software/web-dev" class="f-item">Web開発</a> 
-        <a href="" class="f-item">AI</a> 
-        <a href="" class="f-item">Python</a>
-        <a href="" class="f-item">Notion</a>
+        <!-- <a href="" class="f-item">AI</a>  -->
+        <!-- <a href="" class="f-item">Python</a> -->
+        <!-- <a href="" class="f-item">Notion</a> -->
         <!-- <a href="" class="f-item">Google Office</a>
         <a href="" class="f-item">Microsoft Office</a>
         <a href="" class="f-item">ネットワーク</a> -->
@@ -59,11 +57,11 @@
     
     <div class="f-container">
         <p class="lheader">経済 (β)</p>
-        <a href="" class="f-item">経済学の全体像</a>
-        <a href="" class="f-item">金融</a>
-        <a href="" class="f-item">会計</a>
-        <a href="" class="f-item">ミクロ経済</a> 
-        <a href="" class="f-item">マクロ経済</a>
+        <!-- <a href="" class="f-item">経済学の全体像</a> -->
+        <!-- <a href="" class="f-item">金融</a> -->
+        <!-- <a href="" class="f-item">会計</a> -->
+        <!-- <a href="" class="f-item">ミクロ経済</a>  -->
+        <!-- <a href="" class="f-item">マクロ経済</a> -->
     </div>
 
     <div class="f-container">

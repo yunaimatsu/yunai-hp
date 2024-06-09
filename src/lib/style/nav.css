@@ -1,70 +1,13 @@
 @import url('animation.css');
 @import url('nav-style/navBar.css');
-@import url('nav-style/headNavBar.css');
+@import url('nav-style/headMenu.css');
 @import url('nav-style/sideNavBar.css');
 @import url('nav-style/navTag.css');
 
-@media screen and (max-width: 1060px) {
-    .contactMenu {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .rightside1 {
-        display: flex;
-        flex-direction: column;
-        margin-left: 0px;
-    }
-
-    .side2 img {
-        width: 95%;
-        height: 90%;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    .side2 img {
-        width: 350px;
-    }
-
-    .side1 h1 {
-        font-size: 40px;
-    }
-
-    .side1 p {
-        font-size: 17px;
-    }
-
-    .line {
-        margin-top: 80px;
-    }
-}
-
 @media screen and (max-width: 600px) {
-    nav .sideMenuButton {
-        display: flex;
-    }
 
     nav .navbar {
         display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .side1 h1 {
-        font-size: 35px;
-    }
-
-    .line {
-        flex-direction: column;
-    }
-
-    .line .side1 {
-        padding: 30px;
-    }
-
-    .side2 img {
-        width: 100%;
     }
 }
 
@@ -73,8 +16,8 @@
         font-family: "Exo 2", sans-serif;
         font-size: 2em;
         font-weight: 900;
-        margin: 0.5em 1em;
         text-decoration: none;
+        text-align: center;
     }
 }
     
@@ -87,79 +30,4 @@
         text-decoration: none;
         text-align: center;
     }
-}
-
-.line {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 2% 5%;
-}
-
-.line .side1 {
-padding-right: 50px;
-}
-
-.side1 h1 {
-font-size: 60px;
-margin-bottom: 10px;
-color: green;
-}
-
-.side1 button {
-width: 200px;
-padding: 12px 20px;
-border-radius: 20px;
-border-style: none;
-color: black;
-font-size: 17px;
-font-weight: 600;
-}
-
-.about .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.about .boxes .box {
-    margin: 10px 20px;
-    max-width: calc(100% / 3 - 50px);
-    text-align: center;
-    border-radius: 12px;
-    padding: 30px 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
-    cursor: default;
-}
-
-.contactMenu {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.input2 {
-    margin-top: 10;
-}
-
-.label1 {
-    font-size: 18px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-weight: bolder;
-}
-
-.contactMenu .input1 input {
-    border-radius: 13px;
-    padding: 6px;
-}
-
-.input2 input {
-    border-color: rgb(252, 244, 244);
-    width: 400px;
-}
-
-.rightside1 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 300px;
 }
