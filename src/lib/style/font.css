@@ -1,0 +1,7 @@
+p, h1, h2, h3 {
+    color: #555;
+    text-shadow: 0 0 1px #808080;
+    font-weight: 900;
+    font-family: 游ゴシック体, YuGothic, 游ゴシック, Yu Gothic, NotoSansCJKjp, メイリオ, sans-serif;
+    text-align: center;
+}

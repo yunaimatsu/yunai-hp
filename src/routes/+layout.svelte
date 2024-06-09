@@ -1,20 +1,34 @@
 <script>
-  import '$lib/global.css';
+    import "$lib/style/global.css";
+    import { openNavbar, closeNavbar } from './navbar.js';
 </script>
+<nav class="navBar">
+    <a href="/" class="title">YOSHI<wbr>Official</a>
+    <button class="sideMenuButton" on:click={openNavbar}>&#9776</button>
+    <div class="headNavBar">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="about">About</a></li>
+        </ul>
+    </div>
+</nav>
 
-<div class="navbar">
-    <a href="/" class="title">YOSHI<wbr>Official</a >
+<div class="sideNavBar">
+    <a href="/" class="closeButton" on:click={closeNavbar}>&#x274C</a>
+    <a href="/">Home</a>
+    <a href="about">About</a>
 </div>
+
 
 <slot />
 
 <footer>
     <div class="f-container">
-        <p class="lgroup">About</p>
+        <p class="lheader">About</p>
         <a href="about" class="f-item">自己紹介・来歴など</a>
     </div>
     <div class="f-container">
-        <p class="lgroup">連絡</p>
+        <p class="lheader">連絡</p>
         <a href="mailto:yunaimatsu@gmail.com" class="f-item">Email</a>
         <a href="https://github.com/yunaimatsu" class="f-item">GitHub</a>
         <a href="https://twitter.com/supegoroshiago" class="f-item">Twitter</a>
@@ -23,24 +37,28 @@
     </div>
 
     <div class="f-container">
-        <p class="lgroup">言語</p>
+        <p class="lheader">言語</p>
         <a href="language/typology" class="f-item">世界の言語</a>
         <a href="language/linguistics" class="f-item">言語学</a>
         <a href="" class="f-item">自然言語処理(CS)</a>
     </div>
 
     <div class="f-container">
-        <p class="lgroup">CS</p>
+        <p class="lheader">CS</p>
         <a href="" class="f-item">CSの全体像</a>
         <a href="" class="f-item">ハードウェア</a>
         <a href="" class="f-item">OS</a>
-        <a href="" class="f-item">ソフトウェア</a> 
-        <a href="" class="f-item">ネットワーク</a>
-        <a href="" class="f-item">セキュリティ</a>
+        <a href="cs/software/web-dev" class="f-item">Web開発</a> 
+        <a href="" class="f-item">AI</a> 
+        <a href="" class="f-item">Python</a>
+        <a href="" class="f-item">Notion</a>
+        <!-- <a href="" class="f-item">Google Office</a>
+        <a href="" class="f-item">Microsoft Office</a>
+        <a href="" class="f-item">ネットワーク</a> -->
     </div>
     
     <div class="f-container">
-        <p class="lgroup">経済 (β)</p>
+        <p class="lheader">経済 (β)</p>
         <a href="" class="f-item">経済学の全体像</a>
         <a href="" class="f-item">金融</a>
         <a href="" class="f-item">会計</a>
@@ -49,14 +67,14 @@
     </div>
 
     <div class="f-container">
-        <p class="lgroup">数理 (β)</p>
+        <p class="lheader">数理 (β)</p>
         <a href="" class="f-item">統計</a>
         <a href="" class="f-item">解析</a>
         <a href="" class="f-item">集合・論理</a>
     </div>
 
     <div class="f-container">
-        <p class="lgroup">音楽［開発中］</p>
+        <p class="lheader">音楽［開発中］</p>
         <a href="" class="f-item">世界の楽器</a>
         <a href="" class="f-item">DTM(CS)</a>
         <a href="" class="f-item">音楽史</a>
@@ -64,7 +82,7 @@
     </div>
 
     <div class="f-container">
-        <p class="lgroup">機械工学［開発中］</p>
+        <p class="lheader">機械工学［開発中］</p>
         <a href="" class="f-item">機械工学の全体像</a>
         <a href="" class="f-item">流体力学</a>
         <a href="" class="f-item">材料力学</a>

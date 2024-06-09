@@ -1,0 +1,8 @@
+.responsive-image {
+    max-width: 100%; /* This will make the image take the full width of its parent container */
+    height: auto; /* This will maintain the aspect ratio of the image */
+}
+
+img {
+    filter: brightness(70%);
+}

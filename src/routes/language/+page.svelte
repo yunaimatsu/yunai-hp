@@ -1,5 +1,5 @@
 <script>
-    import '$lib/global.css';
+    import '$lib/style/global.css';
 </script>
 <div class="container">
     <a class="item1" href="ability/language/typology">Language List</a>

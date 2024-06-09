@@ -1,0 +1,60 @@
+@media only screen and (max-width: 450px) {
+    .info {
+        background-color: #EEE;
+        border-radius: 1em;
+        margin-right: 1em;
+        margin-left: 1em;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        padding-right: 2em;
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .info-key {
+        font-size: 1.5em;
+    }
+    
+    .info-value {
+        font-size: 2.0em;
+        animation: fadeIn 3s ease-in-out;
+    }
+    
+    .info-sub {
+        font-size: 1.0em;
+        animation: fadeIn 3s ease-in-out;
+    }
+}
+
+@media only screen and (min-width: 451px) {
+    .info {
+        background-color: #EEE;
+        border-radius: 2em;
+        margin-right: 7em;
+        margin-left: 7em;
+        margin-top: 6em;
+        margin-bottom: 6em;
+        padding-right: 2em;
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .info-key {
+        font-size: 3em;
+    }
+
+    .info-value {
+        font-size: 4em;
+        animation: fadeIn 3s ease-in-out;
+    }
+
+    .info-sub {
+        font-size: 2em;
+        animation: fadeIn 3s ease-in-out;
+    }
+}

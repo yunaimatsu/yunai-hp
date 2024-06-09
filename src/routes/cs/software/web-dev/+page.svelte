@@ -1,8 +1,8 @@
 <script>
-    import '$lib/global.css';
+    import '$lib/style/global.css';
 </script>
 
-<a href="https://zenn.dev/yunaimatsu/articles/9ab92438090525"><h2>Overview</h2></a>
+<a href="https://zenn.dev/yunaimatsu/articles/9ab92438090525"><h2>Web開発の全体像</h2></a>
 
 <a href="https://zenn.dev/yunaimatsu/articles/3ffec987c8bb6a"><h3>HTMLのテンプレと全体像</h3></a>
 <a href="https://zenn.dev/yunaimatsu/articles/1745022ff85e8d"><h3>HTMLのボディ</h3></a>

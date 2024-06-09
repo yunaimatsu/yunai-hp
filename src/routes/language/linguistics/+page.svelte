@@ -1,3 +1,3 @@
 <script>
-    import '$lib/global.css';
+    import '$lib/style/global.css';
 </script>
