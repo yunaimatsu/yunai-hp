@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "build-bulma": "sass --load-path=node_modules my-bulma-project.scss my-bulma-project.css",
+    "start": "npm run build-bulma -- --watch",
     "dev": "vite dev",
     "build": "vite build",
     "preview": "bun run build && wrangler pages dev",
@@ -42,7 +44,8 @@
   "type": "module",
   "dependencies": {
     "@sveltejs/enhanced-img": "^0.2.0",
-    "bulma": "^1.0.0",
+    "bulma": "^1.0.1",
+    "sass": "^1.77.4",
     "svelte-social-media-icons": "^0.0.3"
   }
 }

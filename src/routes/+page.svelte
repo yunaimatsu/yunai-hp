@@ -1,0 +1,26 @@
+<div class="grid m-5">
+    <div class="cell is-col-min-12 has-text-centered">Cell 1</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 2</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 3</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 4</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 5</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 6</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 7</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 8</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 9</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 10</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 11</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 12</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 13</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 14</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 15</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 16</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 17</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 18</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 19</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 20</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 21</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 22</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 23</div>
+    <div class="cell is-col-min-12 has-text-centered">Cell 24</div>
+  </div>
