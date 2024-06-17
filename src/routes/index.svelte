@@ -2,4 +2,4 @@
 <script>
     import { goto } from '$app/navigation';
     goto('/+page.svlete');
-  </script>
+</script>

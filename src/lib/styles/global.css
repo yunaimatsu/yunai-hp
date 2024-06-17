@@ -1,0 +1,30 @@
+/* Global Styles */
+@import 'https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap';
+@import 'content.css';
+@import 'font.css';
+@import 'image.css';
+@import 'global.css';
+@import 'content.css';
+@import 'link.css';
+
+* {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    --border-color: #ddd;
+}
+
+:root {
+    --navbar-height: 4em;
+    
+    --red: #ffb2b2;
+    --pink: #ffb2d8;
+    --purple: #d8b2ff;
+    --blue: #b2d8ff;
+    --green: #b2ffb2;
+    --yellow: #ffffb2;
+    --orange: #ffd8b2;
+}
+
+a:hover img {
+    opacity: 0.7;
+}

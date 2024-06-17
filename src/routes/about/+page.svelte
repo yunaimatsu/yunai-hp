@@ -1,5 +1,5 @@
 <script>
-    import '$lib/style/global.css';
+    import '$lib/styles/global.css';
     import motomachi_hs from '$lib/assets/motomachi_hs.jpg';
     import kogo_js from '$lib/assets/kogo_js.jpg';
     import motomachi_hs_takikun from "$lib/assets/motomachi_hs_takikun.jpeg";
@@ -34,10 +34,11 @@
         <p class="info-sub">(最終閲覧: 2024年6月5日)</p>
         <p class="info-sub">綺麗ですよね、これでも公立なんですよ🥰</p>
         <p class="info-sub">映画『<span><a href="https://www.kiminona.com/">君の名は</a></span>』の瀧くんの学校のモデルにもなりました。</p>
-        <div id="motomachi_hs_images" style="display: flex; justify-content: center; gap: 0.5em;">
+        <div style="display: flex; flex-direction: column; gap: 0.5em;">
             <img class="responsive-image" src={motomachi_hs_takikun} alt="作品内での瀧くんの学校">
             <img class="responsive-image" src={motomachi_hs_inside} alt="同じアングルから撮った基町高校の内観">
         </div>
+        <p class="info-sub">上が作品内の画像、下が対応する実際の写真です。</p>
         <p class="info-sub">画像は<a href="https://x.com/ichigosama22/status/796670393574518784"><span>こちらのサイト</span></a>より引用
     </div>
 
