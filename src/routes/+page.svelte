@@ -11,12 +11,12 @@
     <p>を一ヶ所にまとめたものです</p>
 </div>
 <div class="guide">
-    <div class="guide__item" id="red"><span><a href="">世界の言語</a></span></div>
-    <div class="guide__item" id="orange"><span><a href="">言語学</a></span></div>
+    <div class="guide__item" id="red"><span><a href="https://yunaimatsu.notion.site/Natural-Languages-9718a6a115064bb7bdd30f6aeaa1db4e?pvs=4">自然言語</a></span></div>
+    <div class="guide__item" id="orange"><span><a href="https://yunaimatsu.notion.site/Linguistics-f2130bed7c8d46e9a402b9d8060593e3?pvs=4">言語学</a></span></div>
     <div class="guide__item" id="yellow"><span><a href="https://yunaimatsu.notion.site/Web-Dev-1004a5f02ff948a8be774e816e71a1c9?pvs=4">Web開発</a></span></div>
-    <div class="guide__item" id="green"><span><a href="">金融・会計</a></span></div>
-    <div class="guide__item" id="blue"><span><a href="">ミクロ経済・マクロ経済</a></span></div>
-    <div class="guide__item" id="purple"><span><a href="">統計学</a></span></div>
+    <div class="guide__item" id="green"><span><a href="https://yunaimatsu.notion.site/Accountings-and-Finance-226a7c3bbf2f4f828b445d2e6ff82085?pvs=4">金融・会計</a></span></div>
+    <div class="guide__item" id="blue"><span><a href="https://yunaimatsu.notion.site/Micro-Macro-Economics-7f0937726b13476f896011a86678ac36?pvs=4">ミクロ経済・マクロ経済</a></span></div>
+    <div class="guide__item" id="purple"><span><a href="https://yunaimatsu.notion.site/Math-90aa66409c4c42e09c0181492004b8a0?pvs=4">数学・統計・物理</a></span></div>
 </div>
 
 <style>
@@ -70,9 +70,6 @@
     }
 
     .guide__item {
-        border-bottom-color: var(--border-color);
-        border-bottom-style: solid;
-        border-bottom-width: 1px;
 
         text-align: center;
 

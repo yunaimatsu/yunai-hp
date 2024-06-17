@@ -5,6 +5,7 @@
   "scripts": {
       "dev": "vite",
       "build": "vite build",
+      "deploy": "npm run build && wrangler pages deploy",
       "serve": "vite preview",
       "preview": "npm run build && wrangler pages dev",
       "test": "npm run test:integration && npm run test:unit",
@@ -14,7 +15,6 @@
       "format": "prettier --write .",
       "test:integration": "playwright test",
       "test:unit": "vitest",
-      "deploy": "npm run build && wrangler pages deploy",
       "cf-typegen": "wrangler types && mv worker-configuration.d.ts src/"
   },
   "devDependencies": {
