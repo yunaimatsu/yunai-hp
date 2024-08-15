@@ -1,6 +1,6 @@
 <script>
     import { page } from '$app/stores';
-    import '$lib/styles/global.css';
+    // import '$lib/styles/global.css';
 </script>
 
 <h1>{$page.status}: {$page.error ? $page.error.message : 'No message'}</h1>

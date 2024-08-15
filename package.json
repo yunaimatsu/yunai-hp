@@ -3,19 +3,19 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-      "dev": "vite",
-      "build": "vite build",
-      "deploy": "npm run build && wrangler pages deploy",
-      "serve": "vite preview",
-      "preview": "npm run build && wrangler pages dev",
-      "test": "npm run test:integration && npm run test:unit",
-      "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-      "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-      "lint": "prettier --check . && eslint .",
-      "format": "prettier --write .",
-      "test:integration": "playwright test",
-      "test:unit": "vitest",
-      "cf-typegen": "wrangler types && mv worker-configuration.d.ts src/"
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "npm run build && wrangler pages deploy",
+    "serve": "vite preview",
+    "preview": "npm run build && wrangler pages dev",
+    "test": "npm run test:integration && npm run test:unit",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write .",
+    "test:integration": "playwright test",
+    "test:unit": "vitest",
+    "cf-typegen": "wrangler types && mv worker-configuration.d.ts src/"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240512.0",
@@ -44,6 +44,8 @@
   "dependencies": {
     "@sveltejs/enhanced-img": "^0.2.0",
     "bulma": "^1.0.1",
+    "db": "^6.0.3",
+    "pg": "^8.12.0",
     "sass": "^1.77.4",
     "svelte-social-media-icons": "^0.0.3"
   }

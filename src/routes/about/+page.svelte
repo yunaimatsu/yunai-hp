@@ -1,13 +1,29 @@
-<script>
-    import '$lib/styles/global.css';
+<script lang="ts">
+    // import '$lib/styles/global.css';
     import motomachi_hs from '$lib/assets/motomachi_hs.jpg';
     import kogo_js from '$lib/assets/kogo_js.jpg';
     import motomachi_hs_takikun from "$lib/assets/motomachi_hs_takikun.jpeg";
     import motomachi_hs_inside from "$lib/assets/motomachi_hs_inside.jpeg";
+
+    function example(params: { [key: string]: string }) {
+        console.log(params);
+    }
+    import db from '../../db';
+
+    export async function load({ params }) {
+        const { slug } = params;
+        const { rows } = await db.query('SELECT * FROM posts WHERE slug = $1', [slug]);
+        return { props: { post: rows[0] } };
+    }
+    export let post;
 </script>
 
 <div>
-
+    <h1>{post.title}</h1>
+    <p>{post.date}</p>
+    <article>
+        {@html post.content}
+    </article>
     <div class="info">
         <p class="info-key">学部生(2022.4~)</p>
         <p class="info-value">大阪大学<wbr>外国語学部</p>

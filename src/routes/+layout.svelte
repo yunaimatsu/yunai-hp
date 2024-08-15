@@ -1,5 +1,5 @@
 <script>
-  import '$lib/styles/global.css';
+  // import '$lib/styles/global.css';
   import Loader from '$lib/Loader.svelte';
   import { onMount } from 'svelte';
   let isLoading = true;
@@ -56,7 +56,7 @@
   </footer>
 {/if}
 
-<style>
+<!-- <style>
   .navbar {
     position: fixed;
     height: var(--navbar-height);
@@ -101,4 +101,4 @@
     font-family: 'Roboto', serif;
     font-size: 0.9em;
   }
-</style>
+</style> -->
